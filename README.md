@@ -12,23 +12,15 @@ Mi proyecto se trata de una aplicion web para tener y saber como se crean los me
  4. [Busqueda](#busqueda)
  
  ## Alta<a id="alta"></a>
- El metodo alta coge a
+ El metodo alta coge los parametros del formulario y crea un nuevo objeto y los guarda en el arraylist de producto
  
- ## Alta<a id="modificar"></a>
- orem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de
- relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) 
- desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
- sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la c
+ ## Modificar<a id="modificar"></a>
+ Modficamos un objeto de la seccion:
+ introducimos los campos que queremos cambiar y se los pasamos al servlet para cambiarlos
  
- ## Alta<a id="borrar"></a>
- orem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, 
- sino que tambien ingresó como texto de relleno en documentos electrónicos,
- quedando esencialmente igual al original.
+ ## Borrar<a id="borrar"></a>
+ borrarmos un objeto que el usuario ha introducido por teclado 
  
- 
- 
- 
- 
- Fue popularizado en los 60s con la c
- 
-  ## Alta<a id="busqueda"></a>
+  ## Buscar<a id="busqueda"></a>
+  
+  Busmos en el arraylist la seccion que ha pedido el usuario y la mostramos por pantallla
