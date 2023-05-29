@@ -18,7 +18,7 @@ public class VehiculoMain {
 	 * Menu del camion  donde podremos acceder a todas las funcionalidades del camion 
 	 * @param res boleano de si se ha creado o no el camion
 	 * @param ca objeto camion
-	 * @param scanner
+	 * @param scanner objeto scanner
 	 */
 	public static void menu2(boolean res, Camion ca,Scanner scanner ) {
 		int opcion;
@@ -92,7 +92,7 @@ public class VehiculoMain {
 	/**
 	 * Menu del camion  donde podremos acceder a todas las funcionalidades del coche 
 	 * @param res boleano de si se ha creado o no el camion
-	 * @param ca objeto camion
+	 * @param coche objeto coche
 	 * @param scanner objeto scanner 
 	 */
 	

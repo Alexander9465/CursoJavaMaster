@@ -21,10 +21,7 @@ public abstract class  Vehiculo {
 	/**
 	 * @param matricula matricula del vehiculo
 	 * @param color  color del vehiculo 
-	 * @param numRuedas	ruedas que tiene el vehiculo 
-	 * @param velocidad 
-	 * @param tiempo    
-	 * @param espacio	
+	 * @param numRuedas	ruedas que tiene el vehiculo   
 	 * 
 	 * Los parametros velocidad,tiempo y espacio estan a cero porque no se ha movido a menos 
 	 * que se utilice el metodo avanzar o retroceder 
@@ -85,7 +82,7 @@ public abstract class  Vehiculo {
 	}
 	/**
 	 * Ponemos de nuevo a 0 el espacio recorrido
-	 *
+	 *@param espacio espacio recorrido 
 	 */
 	public void setEspacio(double espacio) {
 		this.espacioRecorrido =espacio;
@@ -93,7 +90,7 @@ public abstract class  Vehiculo {
 	
 	/**
 	 * Creamos el metodo setColor porque si queremos cambiar el color del coche 
-	 * @param nuevo
+	 * @param nuevo color
 	 */
 	public void setColor(String nuevo) {
 		this.color = nuevo;

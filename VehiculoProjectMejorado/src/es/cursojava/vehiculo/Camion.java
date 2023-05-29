@@ -20,7 +20,7 @@ public class Camion  extends Vehiculo implements Conducible{
 	 * @param matricula    matricula del camion 
  	 * @param color			color del camion
 	 * @param numRuedas		numero de ruedas que esta vez puede ser diferente de 4, 6 y 8 ruedas
-	 * @param tacometro		almacena una lista con las velocidad de un recorrido 
+	 * 
 	 */
 	
 	public Camion(String matricula, String color, int numRuedas) {
