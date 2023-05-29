@@ -4,7 +4,7 @@ import es.cursojava.interfaces.Conducible;
 
 /**
  * La clase coche que es hija de vehiculo y que implementa la interfaz conducible 
- * @authorsinensia Alexander Paul Tupiza Tupiza 
+ * @author  Alexander Paul Tupiza Tupiza 
  *
  */
 public class Coche extends Vehiculo  implements Conducible{
