@@ -1,6 +1,7 @@
 package com.cursojava.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.cursojava.model.Curso;
 
@@ -11,5 +12,6 @@ public interface CursoService {
 	Curso buscarCurso(int c);
 	List<Curso> buscarRango(double min,double max);
 	List<Curso> curso();
+	//int getDuracion(Integer c);
 
 }

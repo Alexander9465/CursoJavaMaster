@@ -1,11 +1,13 @@
 package es.cursojava.vehiculo;
 
+import es.cursojava.interfaces.Conducible;
+
 /**
  * 
  * @author sinensia Alexander Paul Tupiza Tupiza 
  *	Esta es la clase abstracta vehiculo ya que un vehiculo puede ser un coche un barco o un camion
  */
-public abstract class  Vehiculo {
+public abstract class  Vehiculo implements Conducible{
 	
 	private String matricula;		//matricula que tiene cualquier vehiculo
 	protected String color ;		//color que tiene un vehiculo

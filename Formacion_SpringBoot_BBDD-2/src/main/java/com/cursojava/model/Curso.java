@@ -13,7 +13,7 @@ public class Curso {
 	private double precio;
 
 	
-	Curso(){
+	public Curso(){
 		
 	}
 

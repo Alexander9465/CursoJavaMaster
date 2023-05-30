@@ -1,6 +1,7 @@
 package com.cursojava.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -56,4 +57,14 @@ public class CursoServiceImp implements CursoService {
 		return cdao.findAll();
 	}
 
+//	@Override
+//	public int getDuracion(Integer c) {
+//		Curso s = cdao.findById(c).orElseThrow();
+//		if(s == null) return 0;
+//		return s.getDuracion();
+//	}
+
+	
+
 }
+;

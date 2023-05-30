@@ -25,6 +25,11 @@ public class CursoController {
 	public Curso buscarCurso( @PathVariable int codCurso) {
 		return service.buscarCurso(codCurso);
 	}
+	
+//	@GetMapping(value="cursoDuracion/{codCurso}",produces =MediaType.APPLICATION_JSON_VALUE)
+//	public Integer getDuracion(Integer codCurso) {
+//		return service.getDuracion(codCurso);
+//	}
 	@GetMapping(value="curso" ,produces =MediaType.APPLICATION_JSON_VALUE)
 	public List<Curso> Curso(){
 		return service.curso()	;	
@@ -51,5 +56,6 @@ public class CursoController {
 		
 		return service.buscarRango(min, max);
 	}
+	
 
 }

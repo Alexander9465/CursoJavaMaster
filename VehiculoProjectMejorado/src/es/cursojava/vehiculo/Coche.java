@@ -7,7 +7,7 @@ import es.cursojava.interfaces.Conducible;
  * @author  Alexander Paul Tupiza Tupiza 
  *
  */
-public class Coche extends Vehiculo  implements Conducible{
+public class Coche extends Vehiculo  {
 
 	/**
 	 * 

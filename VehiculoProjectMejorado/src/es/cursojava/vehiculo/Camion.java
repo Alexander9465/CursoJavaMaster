@@ -9,7 +9,7 @@ import es.cursojava.interfaces.Conducible;
  * @author sinensia Alexander Paul Tupiza 
  *
  */
-public class Camion  extends Vehiculo implements Conducible{
+public class Camion  extends Vehiculo {
 
 	private ArrayList <Integer> tacometro ; //almacena las velocidades de un camion 
 	private int distaciatotal= 0;
