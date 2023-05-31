@@ -28,5 +28,12 @@ public class ProductoController {
 	public void actualizarProducto(@PathVariable int codigoProducto,@PathVariable int unidades) {
 		servicio.actualizarStock(codigoProducto, unidades);
 	}
+	
+	@GetMapping(value="producto/{codigo}")
+	public double obtenerPrecio(@PathVariable int codigo) {
+		
+		return servicio.precioProducto(codigo);
+		
+	}
 
 }
