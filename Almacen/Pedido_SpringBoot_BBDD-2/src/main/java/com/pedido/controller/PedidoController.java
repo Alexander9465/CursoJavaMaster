@@ -1,4 +1,4 @@
-package com.pedido.controller;
+package src.main.java.com.pedido.controller;
 
 import java.util.List;
 
