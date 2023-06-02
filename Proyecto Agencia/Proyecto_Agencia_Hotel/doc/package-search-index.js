@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.cursojava.inicio"},{"l":"com.hotel.controller"},{"l":"com.hotel.dao"},{"l":"com.hotel.model"},{"l":"com.hotel.service"}];updateSearchResults();
