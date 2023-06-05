@@ -6,10 +6,10 @@ Este servicio de hotel proporciona una API para acceder a una tabla de hoteles.
 La tabla contiene los siguientes campos:
   
     idHotel (autonumérico)
-    nombre 
-    categoria
-    precio 
-    disponible (si o no).
+    nombre :nombre del hotel
+    categoria :categoria del hotel
+    precio :precio del hotel 
+    disponible (si o no) :  disponibilidad del hotel 
 A continuación se describen los recursos disponibles y cómo utilizarlos.
 
 ## Funciones
