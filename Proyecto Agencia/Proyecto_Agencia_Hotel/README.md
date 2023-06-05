@@ -17,7 +17,7 @@ A continuación se describen los recursos disponibles y cómo utilizarlos.
 Retorna la lista de hoteles que están disponibles.
 
     Método: GET
-    Ruta: /hotel
+    Ruta: http://localhost:8080/hotel
     Respuesta exitosa:
         Código de estado: 200 (OK)
         Contenido: Lista de hoteles disponibles en formato JSON
@@ -30,7 +30,7 @@ Retorna la lista de hoteles que están disponibles.
 Obtiene los datos de un hotel a partir de su nombre.
 
     Método: GET
-    Ruta: /hotel/:nombre
+    Ruta: http://localhost:8080/hotel/:nombre
     Parámetros de ruta:
         :nombre (cadena): Nombre del hotel que se desea obtener
     Respuesta exitosa:
